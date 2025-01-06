@@ -7,9 +7,12 @@ let num2 = prompt('Enter the second number');
 alert(Number (num1) + Number (num2)); 
 
 let side = prompt('Enter side length');
+//this may be improved:
+// alert("Area = " + (Number(side) * Number(side)));
 alert (`Area = ${Number (side) * Number (side)}`);
 
 let length_rectangle = prompt('Enter the length of the rectangle ');
 let width_rectangle = prompt ('Enter the width of the rectangle');
 
+//The same issue may be improved
 alert (`Perimeter = ${Number(2 * length_rectangle) + Number (2 * width_rectangle)}`);
